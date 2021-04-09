@@ -3,11 +3,11 @@ def spiralize(number):
     step = 2
     total = 0
     since_last = 0
-    while n <= size**2
+    while n <= size**2:
     total += n
     n += step
     since_last += 1
-    if since_last == 4;
+    if since_last == 4:
     step +=2
     since_last = 0
     return total
