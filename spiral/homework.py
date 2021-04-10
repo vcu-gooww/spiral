@@ -1,5 +1,6 @@
 def spiralize(number):
     n = (number - 1) // 2
-    return_value = (3 + 2 * n * ( 8 * n * n + 15 * n +13)) // 3
-    return return_value
+    x = (8 * n * (n + 1) * (2*n+1)) / 3 + 2 * n * (n + 1) + 4 * n + 1
+    return x
 
+print(spiralize(501)) 
